@@ -21,7 +21,7 @@ A native streaming app for the Rabbit R1 that brings NTS Radio's live channels a
 
 ![QR COode tro install (Rabbit OS might warn you about untrusted source)](metadata/qr.jpg)
 
-1. Open the QR code page: https://nts-live-radio-plugin.vercel.app/qr.html
+1. Open the QR code page: https://r1-nts-live.vercel.app/qr.html
 2. Point your R1's camera at the QR code
 3. The R1 will register the creation and add it to your creations list
 
@@ -33,7 +33,7 @@ A native streaming app for the Rabbit R1 that brings NTS Radio's live channels a
 ## Development
 
 ```bash
-cd apps/app
+cd app
 npm install
 npm run dev
 ```
@@ -57,7 +57,7 @@ The built files will be in `dist/`.
 
 ## Deployment
 
-The app is deployed on Vercel: https://nts-live-radio-plugin.vercel.app
+The app is deployed on Vercel: https://r1-nts-live.vercel.app
 
 ### Deploy to Vercel
 
